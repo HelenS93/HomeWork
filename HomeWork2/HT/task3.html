@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task3</title>
+</head>
+<body>
+<form action="/">
+    <label for="name">Name</label><br>
+    <input id="name" type="text" name="name"><br><br>
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name="email"><br><br>
+    <label for="male">Sex</label><br>
+    <input type="radio" name="sex" id="male" value="Male"> Male
+    <input type="radio" name="sex" id="female" value="Female"> Female<br><br>
+    <label for="student">Current status</label><br>
+    <input type="checkbox" id="student" value="student" name="student"> Student <br>
+    <input type="checkbox" value="employed" name="employed"> Employed <br>
+    <input type="checkbox" value="unemployed" name="unemployed"> Unemployed <br><br>
+    Month and Year of birth <br>
+    <select name="month" id="month">
+        <option value="1">January</option>
+        <option value="2">Feburary</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+    </select>
+    <select name="year" id="year">
+        <option value="1">1984</option>
+        <option value="2">1985</option>
+        <option value="3">1986</option>
+        <option value="4">1987</option>
+    </select><br><br>
+    Skills and Technologies <br>
+    <select name="skills" id="skills" multiple="multiple">
+        <optgroup label="Tech skills">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="git">git</option>
+        </optgroup>
+        <optgroup label="Soft skills">
+            <option value="Time management">Time management</option>
+            <option value="Proactivity">Proactivity</option>
+            <option value="Teamwork">Teamwork</option>
+            <option value="Leadership">Leadership</option>
+        </optgroup>
+    </select><br><br>
+    Photo <br>
+    <input type="file" value="Choose File"> <br><br>
+    Comments <br>
+    <textarea name="comments" id="comments" cols="30" rows="10"></textarea> <br><br>
+    <input type="submit" name="Save" id="save" value="Save">
+
+</form>
+</body>
+</html>

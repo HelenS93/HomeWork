@@ -1,0 +1,11 @@
+a[href^="http"] {
+    color: #f70;
+}
+a[href*="google"] {
+    color: #666;
+}
+a[target="_blank"]:after {
+    content: "\21F1";
+    position: absolute;
+}
+/*https://github.com/unicode-table/unicode-table-data/blob/master/loc/ru/symbols/2100.txt*/
