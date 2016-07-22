@@ -33,3 +33,6 @@ label[for="blue"] {
 input#red:checked ~ .red, input#green:checked ~ .green, input#blue:checked ~ .blue {
     display: inline-block;
 }
+input {
+    display: none;
+}
