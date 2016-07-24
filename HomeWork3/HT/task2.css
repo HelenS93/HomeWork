@@ -1,0 +1,26 @@
+.nav {
+    margin-top: 18px;
+    background: #a64dff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.menu
+{
+    margin: 0 auto;
+    width: 900px;
+    font: bold 18px Economica, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    overflow: hidden;
+}
+.menu div
+{
+    float: left;
+    padding: 12px 15px;
+}
+.menu div:last-child {
+    float: right;
+}
+.menu div:hover {
+    background: #eee;
+    color: #9faabc;
+}
