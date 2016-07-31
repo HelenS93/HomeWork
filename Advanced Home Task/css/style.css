@@ -1,0 +1,308 @@
+/* font-family: "ArvoRegular"; */
+@font-face {
+    font-family: "Arvo";
+    src: url("../fonts/ArvoRegular/ArvoRegular.eot");
+    src: url("../fonts/ArvoRegular/ArvoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArvoRegular/ArvoRegular.woff") format("woff"),
+    url("../fonts/ArvoRegular/ArvoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansRegular"; */
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font: 1.5em Arvo, "Myriad Pro", sans-serif;
+    background: #fff;
+    max-width: 2000px;
+}
+h3, h4, h5 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+p {
+    font-family: "OpenSansRegular", "Myriad Pro", sans-serif;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #55626f;
+    margin: 2em 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+}
+.bottom-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 2em;
+}
+/*Меню*/
+.Mypage {
+    font-size: 1.5em;
+}
+.bNav, .Mypage{
+    color: #ffffff;
+    position: absolute;
+    top: 2em;
+    left: 0;
+    z-index: 2;
+}
+.bNav {
+    text-transform: uppercase;
+    width: 100%;
+}
+.bNav .nav>li>a.active {
+    color: #ebc20e;
+}
+.bNav .nav>li>a {
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.bNav .nav>li>a:hover, .bNav .nav>li>a:focus {
+    background: rgba(68,40,44,0.5);
+    color: #ffffff;
+}
+.bNav .navbar-collapse {
+    padding: 0;
+}
+.navbar-nav {
+    margin: 0;
+}
+.navbar-toggle {
+    color: #ebc20e;
+    background-color: #fff;
+    position: static;
+    float: none;
+    padding: 9px 10px;
+    width: 100%;
+    margin: 0.5em 0;
+    text-transform: uppercase;
+    line-height: 2.0em;
+    font-size: 2.0em;
+}
+/*Слайдер*/
+.bgCarousel {
+    height: 50em;
+    background: url("../img/SliderBg.png") no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+}
+.bgCarousel::before {
+    content: "";
+    position:absolute;
+    width: 100%;
+    height: 50em;
+    background: rgba(23,32,41,0.7);
+}
+#myCarousel {
+    height: 50em;
+}
+#myCarousel .item {
+    text-transform: uppercase;
+    font-size: 2.0em;
+    height: 100%;
+}
+.carousel-inner {
+    height: 100%;
+}
+.item>table {
+    height: 100%;
+    width: 100%;
+}
+#myCarousel td {
+    vertical-align: middle;
+    text-align: center;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+.yellow {
+    font-weight: 900;
+    color: #ebc20e;
+}
+.carousel-indicators li {
+    border: 2px solid #fff;
+}
+.carousel-indicators .active {
+    background-color: #ebc20e;
+    border: none;
+}
+.glyphicon-chevron-left {
+    left:0!important;
+}
+.glyphicon-chevron-right {
+    right:0!important;
+}
+/*sectionLight*/
+.sectionLight {
+    color: #7e7e7e;
+    padding-bottom: 7em;
+}
+.sectionLight h3, .sectionLight h4 {
+    color: #2a404e;
+}
+.sectionLight img {
+    margin: auto;
+}
+#about img[alt="user"] {
+    margin-right: 5em;
+}
+/*sectionDark*/
+.sectionDark {
+    color: #f1f1f1;
+    background: #2e3e4e;
+    padding-bottom: 7em;
+}
+.sectionDark:last-child {
+    padding-bottom: 2em;
+}
+.sectionDark h3, .sectionLight h4 {
+    color: #fefefe;
+}
+#works .row img {
+    margin: 1.5em auto;
+    width: 90%;
+}
+#works .row>div {
+    position: relative;
+}
+img.search {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.borderAngleLeft, .borderAngleRight {
+     position: absolute;
+     width: 50%;
+     height: 50%;
+ }
+.borderAngleLeft {
+    left: 0;
+    top: 0;
+    border-top: 0.5em solid #ebc20e;
+    border-left: 0.5em solid #ebc20e;
+}
+.borderAngleRight {
+    right: 0;
+    bottom: 0;
+    border-bottom: 0.5em solid #ebc20e;
+    border-right: 0.5em solid #ebc20e;
+}
+/*ПрогрессБар*/
+.progress-label {
+    color: #2a404e;
+    text-align: left;
+}
+.progress {
+    overflow: visible;
+}
+.progress-bar {
+    background-color: #f0c514;
+    position: relative;
+}
+#about .progress-bar span {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    padding-right: 1em;
+    color: #2a404e;
+    border-right: 1px solid #f0c514;
+}
+/*social*/
+.social a {
+    display: block;
+    height: 25px;
+    width: 26px;
+    margin: 2em auto;
+    overflow: hidden;
+    background: url("../img/social.png") no-repeat ;
+}
+a.twitter {
+    background-position: 0 0;
+}
+a.facebook {
+    background-position: -60px 0;
+}
+a.google {
+    background-position: -123px 0;
+}
+a.youtube {
+    background-position: -185px 0;
+}
+a.behance {
+    background-position: -247px 0;
+}
+a.dribble {
+    background-position: -308px 0;
+}
+a.pinterest {
+    background-position: -370px 0;
+}
+a.deviantart {
+    background-position: -430px 0;
+}
+/*form*/
+form {
+    width: 100%;
+}
+input {
+    margin-bottom: 2em;
+}
+.form-control {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #d5d6d7;
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.form-control::-moz-placeholder {
+    color: #dedede;
+}
+.form-control:-ms-input-placeholder {
+    color: #dedede;
+}
+.form-control::-webkit-input-placeholder {
+    color: #dedede;
+}
+form button.btn {
+    color: #fff;
+    text-transform: uppercase;
+    background: none;
+}
+form button.btn:hover {
+    color: #fff;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+/*
+Arvo
+Open sans
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+*/

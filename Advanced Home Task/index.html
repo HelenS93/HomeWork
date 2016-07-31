@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Index</title>
+    <script src="Script/jquery-1.12.4.min.js"></script>
+    <script src="Script/bootstrap.min.js"></script>
+    <script src="Script/Site.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--Menu begin-->
+<section>
+    <div class="container">
+        <div class="pull-left Mypage"><span class="yellow">[</span>Mypage<span class="yellow">]</span></div>
+            <div class="bNav">
+                <div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Меню</span>
+                        <span>Меню</span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav text-center pull-right">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+        </div>
+    </div>
+</section>
+<!--Menu end-->
+
+<section class="bgCarousel">
+    <div class="container">
+        <!---Слайдер---->
+        <div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                    <table>
+                        <tr>
+                            <td>
+                                <div>hello world,<br>
+                                    i am <span class="yellow">graphic</span> & <span class="yellow">web designer</span><br>
+                                    from morocco
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="item">
+                    <table>
+                        <tr>
+                            <td>
+                                <div>2 hello world,<br>
+                                    i am <span class="yellow">graphic</span> & <span class="yellow">web designer</span><br>
+                                    from morocco
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="item">
+                    <table>
+                        <tr>
+                            <td>
+                                <div>3 hello world,<br>
+                                    i am <span class="yellow">graphic</span> & <span class="yellow">web designer</span><br>
+                                    from morocco
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!---СлайдерEnd---->
+    </div>
+</section>
+
+<!--Services begin-->
+<section class="sectionLight">
+    <div class="container text-center">
+        <div><h3><span class="yellow">[</span>Services<span class="yellow">]</span></h3></div>
+        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/WebDesign.png" alt="WebDesign" class="img-responsive">
+                <h4>Webdesign</h4>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/fa-print.png" alt="PrintDesign" class="img-responsive">
+                <h4>Print Design</h4>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/fa-code.png" alt="Code" class="img-responsive">
+                <h4>Web Developement</h4>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+            </div>
+        </div>
+        <a href="#works" class="bottom-icon"><img src="img/bottomIcon.png" alt="Works"></a>
+    </div>
+</section>
+<!--Services end-->
+
+<!--Works begin-->
+<section class="sectionDark" id="works">
+    <div class="container text-center">
+        <div><h3>[<span class="yellow">Works</span>]</h3></div>
+        <p>This is Photoshop's version  of Lorem Ipsum.
+            Proin gravida nibh vel velit auctor aliquet.
+            Aenean sollicitudin, lorem quis bibendum auctor,
+            nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+        </p>
+        <div class="row">
+            <div class="col-xs-12 bNav">
+                <ul class="nav navbar-nav text-center pull-right">
+                    <li><a href="#" class="active">all</a></li>
+                    <li><a href="#">branding</a></li>
+                    <li><a href="#">print</a></li>
+                    <li><a href="#">webdesign</a></li>
+                    <li><a href="#">photography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="borderAngleLeft hidden-xs"></div>
+                <img src="img/Creation.png" alt="image" class="img-responsive">
+                <img src="img/search.png" alt="image" class="search img-responsive">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="img/Creation.png" alt="image" class="img-responsive">
+                <img src="img/search.png" alt="image" class="search img-responsive">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="img/Creation.png" alt="image" class="img-responsive">
+                <img src="img/search.png" alt="image" class="search img-responsive">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="img/Creation.png" alt="image" class="img-responsive">
+                <img src="img/search.png" alt="image" class="search img-responsive">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="img/Creation.png" alt="image" class="img-responsive">
+                <img src="img/search.png" alt="image" class="search img-responsive">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="img/Creation.png" alt="image" class="img-responsive">
+                <img src="img/search.png" alt="image" class="search img-responsive">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="img/Creation.png" alt="image" class="img-responsive">
+                <img src="img/search.png" alt="image" class="search img-responsive">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="borderAngleRight hidden-xs"></div>
+                <img src="img/Creation.png" alt="image" class="img-responsive">
+                <img src="img/search.png" alt="image" class="search img-responsive">
+            </div>
+        </div>
+
+        <a href="#about" class="bottom-icon"><img src="img/bottomIcon.png" alt="about"></a>
+
+    </div>
+</section>
+<!--Works end-->
+
+<!--About begin-->
+<section class="sectionLight" id="about">
+    <div class="container text-center">
+        <div><h3><span class="yellow">[</span>About<span class="yellow">]</span></h3></div>
+
+        <div><img src="img/user.png" alt="user" class="img-responsive pull-left">
+            <p class="text-left">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum
+                velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+            <p class="text-left">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+        </div>
+        <div class="row" style="clear: both">
+            <div class="col-sm-6">
+                <h5 class="progress-label">graphic design</h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                        <span>75%</span>
+                    </div>
+                </div>
+                <h5 class="progress-label">ui/ux</h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                        <span>75%</span>
+                    </div>
+                </div>
+                <h5 class="progress-label">logo design</h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                        <span>75%</span>
+                    </div>
+                </div>
+                <h5 class="progress-label">html/css</h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h5 class="progress-label">web design</h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                        <span>75%</span>
+                    </div>
+                </div>
+                <h5 class="progress-label">branding</h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                        <span>75%</span>
+                    </div>
+                </div>
+                <h5 class="progress-label">photography</h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                        <span>75%</span>
+                    </div>
+                </div>
+                <h5 class="progress-label">jquery</h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#contact" class="bottom-icon"><img src="img/bottomIcon.png" alt="contact"></a>
+    </div>
+</section>
+<!--About end-->
+
+<!--Contact begin-->
+<section class="sectionDark" id="contact">
+    <div class="container text-center">
+        <div><h3>[<span class="yellow">Contact</span>]</h3></div>
+        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus
+            a odio tincidunt auctor a ornare odio.
+        </p>
+        <div class="row social">
+            <div class="col-md-2 hidden-xs"></div>
+            <div class="col-md-1 col-xs-3"><a href="#" class="twitter"></a>
+                <div class="col-md-2 hidden-xs"></div>
+            </div>
+            <div class="col-md-1 col-xs-3"><a href="#" class="facebook"></a>
+                <div class="col-md-2 hidden-xs"></div>
+            </div>
+            <div class="col-md-1 col-xs-3"><a href="#" class="google"></a>
+                <div class="col-md-2 hidden-xs"></div>
+            </div>
+            <div class="col-md-1 col-xs-3"><a href="#" class="youtube"></a>
+                <div class="col-md-2 hidden-xs"></div>
+            </div>
+            <div class="col-md-1 col-xs-3"><a href="#" class="behance"></a>
+                <div class="col-md-2 hidden-xs"></div>
+            </div>
+            <div class="col-md-1 col-xs-3"><a href="#" class="dribble"></a>
+                <div class="col-md-2 hidden-xs"></div>
+            </div>
+            <div class="col-md-1 col-xs-3"><a href="#" class="pinterest"></a>
+                <div class="col-md-2 hidden-xs"></div>
+            </div>
+            <div class="col-md-1 col-xs-3"><a href="#" class="deviantart"></a>
+                <div class="col-md-2 hidden-xs"></div>
+            </div>
+        </div>
+
+        <form action="#">
+            <div class="row">
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="col-sm-4">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="col-sm-4">
+                    <input type="tel" class="form-control" placeholder="Phone">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" placeholder="Message">
+                </div>
+                <div class="col-sm-4">
+                    <button type="button" class="btn">[ <span class="yellow">send message</span> ]</button>
+                </div>
+            </div>
+        </form>
+        <hr/>
+
+        <span>Copyright&#169;2016</span>
+
+    </div>
+</section>
+<!--Contact end-->
+
+
+</body>
+</html>

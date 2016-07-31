@@ -1,0 +1,24 @@
+Список ссылок.
+
+
+github.io
+
+Мнение о бутстрап.
+https://gist.github.com/iAdramelk/d328b73c72cab92ef95f
+
+
+Контент
+http://htmlbook.ru/css/content
+
+Лейауты
+http://ru.learnlayout.com/
+
+Флексбокс
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Медиа Квери
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+
+
