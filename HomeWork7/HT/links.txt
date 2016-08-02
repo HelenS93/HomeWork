@@ -1,0 +1,18 @@
+Ссылки..
+
+Статистика Использования Браузеров:
+
+http://caniuse.com/usage-table
+http://gs.statcounter.com/
+
+----------------------------------------------------------
+
+World Wide Web Consortium, W3C
+Web Animations
+
+https://www.w3.org/TR/web-animations/
+
+------------------------------------------------------------
+Myth Busting: CSS Animations vs. JavaScript
+
+https://css-tricks.com/myth-busting-css-animations-vs-javascript/
