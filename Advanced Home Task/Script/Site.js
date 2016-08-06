@@ -2,12 +2,8 @@
  * Created by Елена on 26.07.2016.
  */
 $( document ).ready(function() {
-    $(window).resize(function () {
-        SetDisplayMenu();
-    });
-    $(window).load(function () {
-        SetDisplayMenu();
-    });
+
+
     //якоря
     $('.bottom-icon').click(function(){
             //Сохраняем значение атрибута href в переменной:
@@ -15,21 +11,13 @@ $( document ).ready(function() {
         $('html, body').animate({scrollTop: $(target).offset().top}, 800);
         return false;
     });
+    $('.navbar-nav a').click(function(){
+        //Сохраняем значение атрибута href в переменной:
+        var target = $(this).attr('href');
+        $('html, body').animate({scrollTop: $(target).offset().top}, 800);
+        return false;
+    });
 
-//меню
-    function SetDisplayMenu() {
-        var displayToggle = $('.navbar-toggle').css('display');
-        if(displayToggle!='none') {
-            $('.Mypage').css('top','0.5em');
-            $('.navbar-nav').removeClass('pull-right');
-            $('img.search').css('top','-1.5em');
-        }
-        else {
-            $('.Mypage').css('top','2em');
-            $('.navbar-nav').addClass('pull-right');
-            $('img.search').css('top','0');
-        }
-    }
 //слайдер
     $('.carousel').carousel({
         interval: 5000,
@@ -58,8 +46,6 @@ $( document ).ready(function() {
     );
 
     //social
-
-
     $('.social a').hover(function () {
             var leftPos = $(this).css('backgroundPosition').split(' ')[0];
             var left =  leftPos+" -35px";
@@ -71,4 +57,5 @@ $( document ).ready(function() {
             return false;
         }
     );
+
 });

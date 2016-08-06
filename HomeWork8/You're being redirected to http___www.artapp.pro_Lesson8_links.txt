@@ -1,0 +1,12 @@
+Лейаут-генератор
+
+http://www.cssportal.com/layout-generator/
+
+How browsers work
+
+http://www.html5rocks.com/ru/tutorials/internals/howbrowserswork/
+
+Перевод - "Как работают браузеры"
+
+https://habrahabr.ru/post/174057/
+
